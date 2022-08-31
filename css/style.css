@@ -1,0 +1,47 @@
+:root {
+   --primaryColor: #e1b12c;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.navbar {
+   padding: 0px;
+}
+
+.nav-contain {
+   border-bottom: 2px solid white;
+}
+
+.logo {
+   background-image: linear-gradient(var(--primaryColor), var(--primaryColor));
+   background-repeat: no-repeat;
+   background-size: 100% 3px;
+   background-position: left bottom;
+   padding: 10px;
+}
+
+.link-hover {
+   padding: .5rem 0.3em;
+   background-image: linear-gradient(var(--primaryColor), var(--primaryColor));
+   background-repeat: no-repeat;
+   background-size: 0% 3px;
+   background-position: left bottom;
+   font-size: .9em;
+   transition: background-size 700ms ease-in-out;
+}
+
+.nav-link:hover {
+   color: var(--primaryColor);
+}
+
+.nav-link {
+   color: white;
+}
+
+.link-hover:hover {
+   background-size: 100% 3px;
+   color: var(--primaryColor);
+}
