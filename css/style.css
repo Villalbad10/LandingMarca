@@ -59,19 +59,38 @@ header {
    border-left: 2px solid white;
 }
 
-.model img {
-}
-
-
 .img-marca {
    border-bottom: 1px dashed white;
    width: 41%;
 }
 
+.model {
+   position: relative;
+}
+
 .img-model {
    margin-top: -7.5rem;
+   width: 50%;
 }
 
 .img-maniqui {
    position: absolute;
+   left: 43%;
+   height: 100%;
+}
+
+.img-genero {
+   position: absolute;
+   top: 8%;
+   left: 17%;
+   width: 65%;
+}
+
+.des-lorem {
+   color: rgb(95, 96, 97);
+   font-size: 1rem;
+   letter-spacing: .3rem;
+   position: absolute;
+   top: 100%;
+   left: 25%;
 }
