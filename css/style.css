@@ -94,3 +94,10 @@ header {
    top: 100%;
    left: 25%;
 }
+
+.banner {
+   background-image: url('https://res.cloudinary.com/villalbad10/image/upload/v1661975936/ddbcol/bg-asset-2_mhimd0.png');
+   background-size: cover;
+   margin-top: 4rem;
+   font-size: small;
+}
