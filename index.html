@@ -1,155 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>La Marca</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- CSS only -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="./css/style.css">
-   <title>La Marca</title>
-</head>
-
-<body>
-   <header>
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-         <div class="container nav-contain">
-            <a class="navbar-brand logo" href="#">
-               <img class="img-fluid w-75"
-                  src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/logo_vc0jwr.png" alt="">
-            </a>
-            <button class="navbar-toggler shadow-sm" type="button" data-bs-toggle="offcanvas"
-               data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-               aria-labelledby="offcanvasDarkNavbarLabel">
-               <div class="offcanvas-header">
-                  <a class="navbar-brand logo" href="#">
-                     <img src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/logo_vc0jwr.png"
-                        alt="">
-                  </a> <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                     aria-label="Close"></button>
-               </div>
-               <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                     <li class="nav-item link-hover">
-                        <a class="nav-link link" href="#">PRODUCTOS</a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link " href="#">LA MARCA</a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link" href="#">¿DONDE COMPRAR?</a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link" href="#">CONTÁCTANOS</a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link icon" href="#"> <i class="bi bi-facebook"></i> </a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link" href="#"> <i class="bi bi-instagram"></i> </a>
-                     </li>
-                     <li class="nav-item link-hover">
-                        <a class="nav-link" href="#"> <i class="bi bi-youtube"></i> </a>
-                     </li>
-                  </ul>
-               </div>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container nav-contain">
+          <a class="navbar-brand logo" href="#">
+            <img
+              class="img-fluid w-75"
+              src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/logo_vc0jwr.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler shadow-sm"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <a class="navbar-brand logo" href="#">
+                <img
+                  src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/logo_vc0jwr.png"
+                  alt=""
+                />
+              </a>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-         </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item link-hover">
+                  <a class="nav-link link" href="#">PRODUCTOS</a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link" href="#">LA MARCA</a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link" href="#">¿DONDE COMPRAR?</a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link" href="#">CONTÁCTANOS</a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link icon" href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item link-hover">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
       <section class="container pb-2 mt-4 indice">
-         <span class="p-2 ps-4">Inicio / Productos</span>
-         <p class="ps-4 p-4 border-start img-marca">
-            <img src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/bgtext_laksji.png"
-               alt="la marca">
-         </p>
-         <p class="ms-4 w-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quisquam possimus
-            illo dolores harum
-            atque temporibus, repellat obcaecati laborum voluptatibus</p>
+        <span class="p-2 ps-4">Inicio / Productos</span>
+        <p class="ps-4 p-4 border-start img-marca">
+          <img
+            class="img-fluid"
+            src="https://res.cloudinary.com/villalbad10/image/upload/v1661975934/ddbcol/bgtext_laksji.png"
+            alt="la marca"
+          />
+        </p>
+        <p class="ms-4 indice-des">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+          quisquam possimus illo dolores harum atque temporibus, repellat
+          obcaecati laborum voluptatibus
+        </p>
       </section>
-   </header>
+    </header>
 
-   <section class="model container text-center">
-      <img class="img-model img-fluid"
-         src="https://res.cloudinary.com/villalbad10/image/upload/v1661975936/ddbcol/asset-bg_nyecng.png">
-      <img class="img-maniqui img-fluid"
-         src="https://res.cloudinary.com/villalbad10/image/upload/v1661975936/ddbcol/asset-person_xp2ay5.png">
-      <img class="img-fluid img-genero"
-         src="https://res.cloudinary.com/villalbad10/image/upload/v1661975935/ddbcol/text_shyi8k.png">
-      <span class="des-lorem text-uppercase mt-4">Lorem ipsum dolor sit amet |</span>
-   </section>
+    <section class="model container text-center">
+      <img
+        class="img-model img-fluid"
+        src="https://res.cloudinary.com/villalbad10/image/upload/v1661975936/ddbcol/asset-bg_nyecng.png"
+      />
+      <img
+        class="img-maniqui img-fluid"
+        src="https://res.cloudinary.com/villalbad10/image/upload/v1661975936/ddbcol/asset-person_xp2ay5.png"
+      />
+      <img
+        class="img-fluid img-genero"
+        src="https://res.cloudinary.com/villalbad10/image/upload/v1661975935/ddbcol/text_shyi8k.png"
+      />
+      <span class="des-lorem text-uppercase mt-4"
+        >Lorem ipsum dolor sit amet |</span
+      >
+    </section>
 
-   <section class="banner p-5">
-      <div class="container d-flex justify-content-evenly">
-         <article class="text-light w-25">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            eaque,
-            commodi quae,
-            quibusdam quas ad
-            delectus eum et consectetur adipisicing elit. Maiore
-         </article>
-         <article class="text-light w-25 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eaque,
-            commodi quae,
-            quibusdam quas ad
-            delectus eum provident ipsum, asperiores velit omnis ipsa consequatur aperiam officiis eligendi magni
-            corporis
-            architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum atque molestiae esse
-            laborum dolorem amet numquam molestias, dolores tempore illum? Neque maiores sequi voluptas eius, nobis et
-            blanditiis! Maxime.
-         </article>
+    <section class="banner p-5">
+      <div class="d-flex justify-content-evenly">
+        <article class="text-light text-banner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          eaque, commodi quae, quibusdam quas ad delectus eum et consectetur
+          adipisicing elit. Maiore
+        </article>
+        <article class="text-light text-banner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          eaque, commodi quae, quibusdam quas ad delectus eum provident ipsum,
+          asperiores velit omnis ipsa consequatur aperiam officiis eligendi
+          magni corporis architecto. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Deleniti rerum atque molestiae esse laborum dolorem
+          amet numquam molestias, dolores tempore illum? Neque maiores sequi
+          voluptas eius, nobis et blanditiis! Maxime.
+        </article>
       </div>
-   </section>
+    </section>
 
-   <section class="container">
-      <img class="img'fluid img-banner w-25 position-absolute"
-         src="https://res.cloudinary.com/villalbad10/image/upload/v1661975935/ddbcol/asset-2_fhiisi.png">
-      <h6 class="text-uppercase title-banner w-25 mt-4">Lorem ipsum dolor sit amet |</h6>
-      <p class="pa-banner w-25 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis ex soluta
-         rerum
-         cumque maiores dicta
-         ab fugit aspernatur facere harum doloribus repellat </p>
-   </section>
+    <section class="container">
+      <img
+        class="img'fluid img-banner position-absolute"
+        src="https://res.cloudinary.com/villalbad10/image/upload/v1661975935/ddbcol/asset-2_fhiisi.png"
+      />
+      <h6 class="text-uppercase title-banner mt-4">
+        Lorem ipsum dolor sit amet |
+      </h6>
+      <p class="pa-banner mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis
+        ex soluta rerum cumque maiores dicta ab fugit aspernatur facere harum
+        doloribus repellat
+      </p>
+    </section>
 
-   <section class="container contacto mb-5">
+    <section class="container contacto mb-5">
       <h6 class="text-uppercase">suscríbete a nuestro newsletter |</h6>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, numquam quaerat</p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur,
+        numquam quaerat
+      </p>
       <form class="d-flex flex-wrap justify-content-between">
-         <input class="input-contact ps-3 p-1 mt-2" placeholder="NOMBRE" type="text">
-         <input class="input-contact ps-3 p-1 mt-2" placeholder="CORREO ELECTRONICO" type="email">
-         <select class="input-contact ps-3 p-1 mt-2">
-            <option>TIPO DE DOCUMENTO</option>
-            <option>CC</option>
-            <option>CE</option>
-         </select>
-         <input class="input-contact ps-3 p-1 mt-2" placeholder="NUMERO DE DOCUMENTO" type="number">
-         <input class="input-contact ps-3 p-1 mt-2" placeholder="TELEFONO" type="number">
-         <div class="form-check mt-3 mx-auto my-auto">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label check-label" for="flexCheckDefault">
-               Acepta terminos y condiciones
-            </label>
-            <button class="suscribe">SUSCRIBIRME</button>
-         </div>
+        <input
+          class="input-contact ps-3 p-1 mt-2"
+          placeholder="NOMBRE"
+          required
+          type="text"
+        />
+        <input
+          class="input-contact ps-3 p-1 mt-2"
+          placeholder="CORREO ELECTRONICO"
+          required
+          type="email"
+        />
+        <select class="input-contact ps-3 p-1 mt-2">
+          <option>TIPO DE DOCUMENTO</option>
+          <option>CC</option>
+          <option>CE</option>
+        </select>
+        <input
+          class="input-contact ps-3 p-1 mt-2"
+          placeholder="NUMERO DE DOCUMENTO"
+          required
+          type="number"
+        />
+        <input
+          class="input-contact ps-3 p-1 mt-2"
+          placeholder="TELEFONO"
+          required
+          type="number"
+        />
+        <div class="form-check mt-3 mx-auto my-auto">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            required
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label check-label" for="flexCheckDefault">
+            Acepta terminos y condiciones
+          </label>
+          <button type="submit" class="suscribe">SUSCRIBIRME</button>
+        </div>
       </form>
-   </section>
+    </section>
 
-   <footer>
+    <footer>
       <div class="container d-flex mt-3 justify-content-center">
-         Todos los derechos reservados © 2017
+        Todos los derechos reservados © 2017
       </div>
-   </footer>
+    </footer>
 
-   <!-- JavaScript Bundle with Popper -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
 
-   <script src="./js/script.js"></script>
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
