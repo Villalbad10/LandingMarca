@@ -7,10 +7,14 @@
 </div>
 
 <div align="center">
-
+<a target="_blank" href="https://lenguajehtml.com/">
+    <img title="Html5" alt="Html" src="https://img.shields.io/badge/Html5-red" />
+  </a>
+  
   <a target="_blank" href="https://www.javascript.com/">
     <img title="JavaScript" alt="JavaScript badge" src="https://img.shields.io/badge/ES6-JavaScript-FFCA28?style&logo=javascript" /> 
   </a>
+  
   <a target="_blank" href="https://getbootstrap.com/">
     <img title="Bootstrap" alt="Bootstrap badge" src="https://img.shields.io/badge/5.2v-Bootstrap-blueviolet" />
   </a>
