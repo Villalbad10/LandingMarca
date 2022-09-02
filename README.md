@@ -31,14 +31,14 @@ Colores utilizados.
 | Color           | Hex                                                                     |
 | --------------- | ----------------------------------------------------------------------- |
 | Primary Color   | ![#e1b12c](https://via.placeholder.com/15/e1b12c/e1b12c.png) #e1b12c    |
-| Secondary Color | ![#0B4654](https://via.placeholder.com/15/#000000/#000000.png) ##000000 |
+| Secondary Color | ![#0B4654](https://via.placeholder.com/15/000000/000000.png) #000000 |
 
-## 🦾 tecnologías
+## 🦾 Tecnologías
 
-- [HTML](https://nodejs.org/)
-- [CSS](https://reactjs.org/)
-- [Bootstrap](https://reactrouter.com/)
-- [JavaScript](https://redux.js.org/)
+- [HTML](https://lenguajehtml.com/)
+- [CSS](https://lenguajecss.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [JavaScript](https://www.javascript.com/)
 
 
 ## 🚀 Get Started
