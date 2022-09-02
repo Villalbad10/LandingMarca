@@ -121,3 +121,43 @@ header {
    left: 53%;
    font-size: small;
 }
+
+.contacto {
+   width: 60%;
+   margin-top: 10rem;
+}
+
+.contacto h6 {
+   color: rgb(95, 96, 97);
+   font-size: 1.2rem;
+   letter-spacing: .3rem;
+}
+
+.contacto p {
+   color: rgb(95, 96, 97);
+   font-size: small;
+}
+
+.input-contact {
+   width: 48%;
+   background-color: rgb(218, 218, 218);
+   border: none;
+   justify-content: space-between;
+}
+
+select {
+   color: rgb(95, 96, 97);
+}
+
+.check-label {
+   font-size: small;
+}
+
+.suscribe {
+   padding: .3rem;
+   background-color: var(--primaryColor);
+   border: 0px solid var(--primaryColor);
+}
+.suscribe:hover {
+   background-color: #f3ca58
+}
