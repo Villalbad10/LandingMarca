@@ -5,8 +5,11 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-
+body {
+  overflow-x: hidden;
+}
 header {
   background-color: black;
   color: white;
@@ -178,7 +181,7 @@ footer {
   height: 4rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .img-marca {
     width: 90%;
   }
@@ -217,7 +220,6 @@ footer {
     width: 48%;
   }
   .title-banner {
-    color: rgb(95, 96, 97);
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
     position: relative;
@@ -244,3 +246,61 @@ footer {
     margin-top: 1rem;
   }
 }
+@media (max-width: 991px) and (min-width: 501px) {
+  .img-marca {
+    width: 80%;
+  }
+  .model {
+    left: 11%;
+  }
+  .indice-des {
+    width: 50%;
+  }
+  .img-model {
+    width: 70%;
+  }
+  .img-maniqui {
+    top: 5%;
+    height: 100%;
+  }
+  .img-genero {
+    top: 1%;
+    left: 8%;
+    width: 80%;
+  }
+  .img-banner {
+    margin-left: 4%;
+    margin-top: -8rem;
+    width: 20%;
+  }
+  .title-banner {
+    position: relative;
+    padding-top: 6.5rem;
+    left: 10%;
+    width: 80%;
+  }
+  .text-banner {
+    font-size: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .pa-banner {
+    left: 10%;
+    font-size: small;
+    width: 80%;
+  }
+  .contacto {
+    margin-top: 5rem;
+    width: 90%;
+  }
+  .input-contact {
+    width: 100%;
+  }
+  .suscribe {
+    margin-top: 1rem;
+  }
+}
+
+/* @media (max-width: 991px) and (min-width: 601px) {
+} */
